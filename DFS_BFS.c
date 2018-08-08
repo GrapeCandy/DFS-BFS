@@ -1,23 +1,21 @@
 #include <iostream>
 #include <stdio.h>
-#include <tchar.h>
-#include <vector>
 #include <queue>
-using namespace std;								//Use namespace to std. 
+using namespace std;							//Use namespace to std. 
 
 //#pragma warning(disable:4996)						//When using 'strtok', warning can appear. Then use this sentence.
 //#define _CRT_SECURE_NO_WARNINGS					//When using 'strtok', warning can appear. Then use this sentence.
 
 int vertex, edge, start;							//Store size of graph and start node.
 int graph[51][51] = { 0, };							//Two demension array that stores connection between nodes.
-int dfs_visit[51];									//Array that stores visited node to 1 in dfs.
-int bfs_visit[51];									//Array that stores visited node to 1 in bfs.
+int dfs_visit[51];								//Array that stores visited node to 1 in dfs.
+int bfs_visit[51];								//Array that stores visited node to 1 in bfs.
 
 
 ////////////////////////////////////////////////
-//					 <BFS>					  //
-//Description : bfs algorithm that searches	  //
-//				shortest path.				  //
+//			<BFS>		      //
+//Description : bfs algorithm that searches   //
+//		shortest path.		      //
 ////////////////////////////////////////////////
 void bfs ()
 {
@@ -47,8 +45,8 @@ void bfs ()
 
 
 ////////////////////////////////////////////////
-//					 <DFS>					  //
-//Description : dfs algorithm that searches	  //
+//			<DFS>		      //
+//Description : dfs algorithm that searches.  //
 ////////////////////////////////////////////////
 void dfs(int x)
 {
@@ -66,10 +64,10 @@ void dfs(int x)
 
 
 ////////////////////////////////////////////////
-//					 <main>					  //
-//Description : main function that makes	  //
-//				graph and calls bfs			  //
-//				and dfs function.			  //
+//			<main>		      //
+//Description : main function that makes      //
+//		graph and calls bfs	      //
+//		and dfs function.	      //
 ////////////////////////////////////////////////
 void main()
 {
