@@ -8,7 +8,7 @@ DFS and BFS algorithm with C++
 2. 최적 경로 탐색이 아니다.
 3. 공간 복잡도가 낮다는 장점이 있다.
 
-![Alt text](C:\Users\오지현\Desktop\2123283A51FF79DB46)
+![DFS](https://t1.daumcdn.net/cfile/tistory/2123283A51FF79DB46)
 
 ## BFS
 1. 너비 우선 탐색이다.
