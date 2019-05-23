@@ -32,10 +32,10 @@ AND This is the solution of "https://www.acmicpc.net/problem/1260" (백준 알�
 ## Queue
 1. FIFO(First In First Out)의 구조
 2. 들어온 순서대로 나가는 자료구조이다.
-3. C++에서는 '#include <queue>' 라이브러리를 추가해주어야 한다.
+3. C++에서는 "#include <queue>" 라이브러리를 추가해주어야 한다.
 
 
 ## Stack
 1. LIFO(Last In First Out)의 구조
 2. 나중에 들어온 데이터가 첫번째로 나가는 자료구조이다.
-3. C++에서는 '#include <stack>' 라이브러리를 추가해주어야 한다.
+3. C++에서는 "include <stack>" 라이브러리를 추가해주어야 한다.
